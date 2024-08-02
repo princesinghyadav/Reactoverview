@@ -1,0 +1,24 @@
+.navbar{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    
+ }
+ .navbar>a{
+    text-decoration: none;
+ }
+
+ /* #homecard{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 1px dashed black;
+ } */
+ #home-card{
+    width: 80%;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    border: 1px solid orange;
+    margin: auto;
+    padding: 13px;
+ }
